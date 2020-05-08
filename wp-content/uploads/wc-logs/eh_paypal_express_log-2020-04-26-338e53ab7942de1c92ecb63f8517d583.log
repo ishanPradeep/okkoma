@@ -1,0 +1,160 @@
+2020-04-26T13:14:14+00:00 DEBUG <------------------- ExtensionHawk PayPal Express Payment ( Setting Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => SetExpressCheckout
+    [RETURNURL] => https://okkoma.club/wc-api/Eh_PayPal_Express_Payment/?c=express_details&p=https://okkoma.club/checkout/
+    [CANCELURL] => https://okkoma.club/checkout/?cancel_express_checkout=cancel
+    [ADDROVERRIDE] => 
+    [BRANDNAME] => Okkoma
+    [HDRIMG] => 
+    [LOGOIMG] => 
+    [SOLUTIONTYPE] => Sole
+    [CUSTOMERSERVICENUMBER] => 
+    [LOCALECODE] => en_US
+    [LANDINGPAGE] => Billing
+    [L_PAYMENTREQUEST_0_NAME0] => test
+    [L_PAYMENTREQUEST_0_DESC0] => 
+    [L_PAYMENTREQUEST_0_AMT0] => 500
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_ITEMURL0] => https://okkoma.club/product/test/
+    [PAYMENTREQUEST_0_AMT] => 535
+    [PAYMENTREQUEST_0_CURRENCYCODE] => LKR
+    [PAYMENTREQUEST_0_ITEMAMT] => 500
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 35
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_NOTIFYURL] => 
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 937
+    [PAYMENTREQUEST_0_SHIPTONAME] => sakala bujan sakala
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => galle
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => 
+    [PAYMENTREQUEST_0_SHIPTOCITY] => galle
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => 
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 0000
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => LK
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 012
+    [PAYMENTREQUEST_0_NOTETEXT] => 
+    [PAYMENTREQUEST_0_EMAIL] => sakalabujanpage@gmail.com
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 1210
+)
+
+2020-04-26T13:14:14+00:00 DEBUG <------------------- ExtensionHawk PayPal Express Payment ( Response on Express Start/Credit Start ) ------------------->
+stdClass Object
+(
+    [TIMESTAMP] => 2020-04-26T13:14:14Z
+    [CORRELATIONID] => 9f53d1b61fe6c
+    [ACK] => Failure
+    [BUILD] => 54492453
+    [L_ERRORCODE0] => 10605
+    [L_SHORTMESSAGE0] => Transaction refused because of an invalid argument. See additional error messages for details.
+    [L_LONGMESSAGE0] => Receiving country does not support the transaction currency.
+    [L_SEVERITYCODE0] => Error
+)
+
+2020-04-26T13:23:52+00:00 DEBUG <------------------- ExtensionHawk PayPal Express Payment ( Setting Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => SetExpressCheckout
+    [RETURNURL] => https://okkoma.club/wc-api/Eh_PayPal_Express_Payment/?c=express_details&p=https://okkoma.club/cart/
+    [CANCELURL] => https://okkoma.club/cart/?cancel_express_checkout=cancel
+    [ADDROVERRIDE] => 
+    [BRANDNAME] => Okkoma
+    [HDRIMG] => 
+    [LOGOIMG] => 
+    [SOLUTIONTYPE] => Sole
+    [CUSTOMERSERVICENUMBER] => 
+    [LOCALECODE] => en_US
+    [LANDINGPAGE] => Billing
+    [L_PAYMENTREQUEST_0_NAME0] => test
+    [L_PAYMENTREQUEST_0_DESC0] => 
+    [L_PAYMENTREQUEST_0_AMT0] => 500
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_ITEMURL0] => https://okkoma.club/product/test/
+    [PAYMENTREQUEST_0_AMT] => 535
+    [PAYMENTREQUEST_0_CURRENCYCODE] => LKR
+    [PAYMENTREQUEST_0_ITEMAMT] => 500
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 35
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_NOTIFYURL] => 
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 937
+    [PAYMENTREQUEST_0_SHIPTONAME] => sakala bujan sakala
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => galle
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => 
+    [PAYMENTREQUEST_0_SHIPTOCITY] => galle
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => 
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 0000
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => LK
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 012
+    [PAYMENTREQUEST_0_NOTETEXT] => 
+    [PAYMENTREQUEST_0_EMAIL] => sakalabujanpage@gmail.com
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 1211
+)
+
+2020-04-26T13:23:52+00:00 DEBUG <------------------- ExtensionHawk PayPal Express Payment ( Response on Express Start/Credit Start ) ------------------->
+stdClass Object
+(
+    [TIMESTAMP] => 2020-04-26T13:23:52Z
+    [CORRELATIONID] => f7ca44d393431
+    [ACK] => Failure
+    [BUILD] => 54492453
+    [L_ERRORCODE0] => 10605
+    [L_SHORTMESSAGE0] => Transaction refused because of an invalid argument. See additional error messages for details.
+    [L_LONGMESSAGE0] => Receiving country does not support the transaction currency.
+    [L_SEVERITYCODE0] => Error
+)
+
+2020-04-26T13:24:01+00:00 DEBUG <------------------- ExtensionHawk PayPal Express Payment ( Setting Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => SetExpressCheckout
+    [RETURNURL] => https://okkoma.club/wc-api/Eh_PayPal_Express_Payment/?c=express_details&p=https://okkoma.club/cart/
+    [CANCELURL] => https://okkoma.club/cart/?cancel_express_checkout=cancel
+    [ADDROVERRIDE] => 
+    [BRANDNAME] => Okkoma
+    [HDRIMG] => 
+    [LOGOIMG] => 
+    [SOLUTIONTYPE] => Sole
+    [CUSTOMERSERVICENUMBER] => 
+    [LOCALECODE] => en_US
+    [USERSELECTEDFUNDINGSOURCE] => CreditCard
+    [LANDINGPAGE] => Billing
+    [L_PAYMENTREQUEST_0_NAME0] => test
+    [L_PAYMENTREQUEST_0_DESC0] => 
+    [L_PAYMENTREQUEST_0_AMT0] => 500
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_ITEMURL0] => https://okkoma.club/product/test/
+    [PAYMENTREQUEST_0_AMT] => 535
+    [PAYMENTREQUEST_0_CURRENCYCODE] => LKR
+    [PAYMENTREQUEST_0_ITEMAMT] => 500
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 35
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_NOTIFYURL] => 
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 937
+    [PAYMENTREQUEST_0_SHIPTONAME] => sakala bujan sakala
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => galle
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => 
+    [PAYMENTREQUEST_0_SHIPTOCITY] => galle
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => 
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 0000
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => LK
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 012
+    [PAYMENTREQUEST_0_NOTETEXT] => 
+    [PAYMENTREQUEST_0_EMAIL] => sakalabujanpage@gmail.com
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 1212
+)
+
+2020-04-26T13:24:02+00:00 DEBUG <------------------- ExtensionHawk PayPal Express Payment ( Response on Express Start/Credit Start ) ------------------->
+stdClass Object
+(
+    [TIMESTAMP] => 2020-04-26T13:24:02Z
+    [CORRELATIONID] => 83ee1b2922c15
+    [ACK] => Failure
+    [BUILD] => 54492453
+    [L_ERRORCODE0] => 10605
+    [L_SHORTMESSAGE0] => Transaction refused because of an invalid argument. See additional error messages for details.
+    [L_LONGMESSAGE0] => Receiving country does not support the transaction currency.
+    [L_SEVERITYCODE0] => Error
+)
+

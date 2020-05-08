@@ -1,0 +1,9 @@
+2020-04-14T16:46:38+00:00 CRITICAL Uncaught Error: Call to undefined function Stripe\HttpClient\curl_version() in /var/www/okkoma/wp-content/plugins/direct-stripe/vendor/stripe/stripe-php/lib/HttpClient/CurlClient.php:78
+Stack trace:
+#0 /var/www/okkoma/wp-content/plugins/direct-stripe/vendor/stripe/stripe-php/lib/HttpClient/CurlClient.php(66): Stripe\HttpClient\CurlClient->initUserAgentInfo()
+#1 /var/www/okkoma/wp-content/plugins/direct-stripe/vendor/stripe/stripe-php/lib/HttpClient/CurlClient.php(34): Stripe\HttpClient\CurlClient->__construct()
+#2 /var/www/okkoma/wp-content/plugins/direct-stripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(459): Stripe\HttpClient\CurlClient::instance()
+#3 /var/www/okkoma/wp-content/plugins/direct-stripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(319): Stripe\ApiRequestor->httpClient()
+#4 /var/www/okkoma/wp-content/plugins/direct-stripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(112): Stripe\ApiRequestor->_requestRaw('post', '/v1/customers', Array, Array)
+#5 /var/www/okkoma/wp-content/plugins/direct-str in /var/www/okkoma/wp-content/plugins/direct-stripe/vendor/stripe/stripe-php/lib/HttpClient/CurlClient.php on line 78
+
