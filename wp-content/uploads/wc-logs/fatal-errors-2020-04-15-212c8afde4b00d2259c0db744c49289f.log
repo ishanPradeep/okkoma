@@ -1,2 +1,0 @@
-2020-04-15T16:54:57+00:00 CRITICAL Out of memory (allocated 92274688) (tried to allocate 10489856 bytes) in /var/www/okkoma/wp-includes/functions.php on line 3890
-

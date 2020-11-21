@@ -1,0 +1,14 @@
+2020-10-24T17:46:47+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_cart_item_data_hash() in /var/www/okkoma/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php:146
+Stack trace:
+#0 /var/www/okkoma/wp-includes/class-wp-hook.php(287): WC_Cart_Session->get_cart_from_session('')
+#1 /var/www/okkoma/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/okkoma/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /var/www/okkoma/wp-settings.php(562): do_action('wp_loaded')
+#4 /var/www/okkoma/wp-config.php(90): require_once('/var/www/okkoma...')
+#5 /var/www/okkoma/wp-load.php(37): require_once('/var/www/okkoma...')
+#6 /var/www/okkoma/wp-admin/admin.php(34): require_once('/var/www/okkoma...')
+#7 /var/www/okkoma/wp-admin/user-edit.php(10): require_once('/var/www/okkoma...')
+#8 /var/www/okkoma/wp-admin/profile.php(18): require_once('/var/www/okkoma...')
+#9 {main}
+  thrown in /var/www/okkoma/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php on line 146
+
